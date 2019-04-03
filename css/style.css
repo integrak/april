@@ -1,0 +1,115 @@
+.body{
+	
+}
+
+@font-face {
+    font-family: Ubuntu-Medium; 
+    src: url(../fonts/Ubuntu-Medium.ttf); 
+   }
+
+@font-face {
+    font-family: Ubuntu-Light; 
+    src: url(../fonts/Ubuntu-Light.ttf); 
+   }
+
+@font-face {
+    font-family: UbuntuCondensedRegular; 
+    src: url(../fonts/UbuntuCondensedRegular.ttf); 
+   }
+   
+.header{
+	margin: auto;
+}
+
+.top-menu {
+	border: 1px solid black;
+	margin-top: 36px;
+	height: 100px;;
+}
+
+.logo{
+	
+}
+
+.logo-img{
+	float:left;
+	margin-right: 11px;
+}
+
+.social{
+	float:right;
+	margin-right: 3px;
+}
+
+.social a{
+	margin-left: 17px;
+	text-decoration: none;
+	color: #cccccc;
+}
+
+a:hover {
+	color: #248cec;
+}
+
+.header_menu{
+	/*width: 1160px;
+	height: 56px;*/
+	border: 1px solid black;
+	background-color: #2a2d32;
+	height: 100px;
+}
+
+.two li {
+  float: left;
+  list-style-type: none;
+}
+.two a {
+  display: block;
+  padding: 1em;
+  border: 1px solid #181a1d;
+  background: #2a2d32; 
+  color: white; 
+  font-family: Ubuntu-Light;
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+.two a:hover {
+	text-decoration: none;
+	color: white; 
+    background: #248cec; 
+    font-family: Ubuntu-Light;
+	text-transform: uppercase;
+	border: 1px solid #181a1d;
+     padding: 1em; 
+	list-style-type: none;
+	
+}
+
+/*.menu a{
+	text-decoration: none;
+	color: white; 
+    background: #2a2d32; 
+    font-family: Ubuntu-Light;
+	text-transform: uppercase;
+	border: 1px solid #181a1d;
+    padding: 20px; 
+	margin:0px;
+	font-family: UbuntuCondensedRegular;
+}*/
+
+/*.menu a:hover{
+	text-decoration: none;
+	color: white; 
+    background: #248cec; 
+    font-family: Ubuntu-Light;
+	text-transform: uppercase;
+	border: 1px solid #181a1d;
+    padding: 20px; 
+	margin:0px;
+	font-family: UbuntuCondensedRegular;
+}
+
+
+	
